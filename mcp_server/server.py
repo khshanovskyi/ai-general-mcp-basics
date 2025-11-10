@@ -2,8 +2,8 @@ from pathlib import Path
 
 from mcp.server.fastmcp import FastMCP
 
-from mcp_server.models.user_info import UserSearchRequest, UserCreate, UserUpdate
-from mcp_server.user_client import UserClient
+from models.user_info import UserSearchRequest, UserCreate, UserUpdate
+from user_client import UserClient
 
 mcp = FastMCP(
     name="users-management-mcp-server",
