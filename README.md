@@ -48,17 +48,7 @@ You need to implement the Users Management Agent, that will be able to perform C
 1. Run [root docker-compose](docker-compose.yml) (Optional step in case if you have it from previous tasks)
 2. Open [mcp_server](mcp_server/server.py)
 3. Implement all ***TODO***
-4. Run this MCP server in [root docker-compose](mcp_server/docker-compose.yml):
-    ```bash
-    cd ./mcp_server/
-    ```
-    ```bash
-    docker compose up -d
-    ```
-5. Verify that it is up:
-    ```bash
-    docker compose ps -a
-    ```
+4. Run [mcp_server](mcp_server/server.py)
 
 ### OPTIONAL: Work with MCP server in Postman
 1. Import [mcp.postman_collection](mcp.postman_collection.json) to Postman
