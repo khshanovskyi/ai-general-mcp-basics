@@ -27,8 +27,7 @@ task/
 └── mcp_server/               
     ├── server.py             🚧 TODO: implement logic
     ├── user_client.py        ✅ Complete
-    ├── Dockerfile            ✅ Complete
-    └── docker-compose.yml    ✅ Complete
+    └── Dockerfile            ✅ Complete
 ```
 # <img src="flow.png">
 
